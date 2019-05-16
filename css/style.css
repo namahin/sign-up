@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+
+body {}
+
+.whole-page {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.whole-page img {
+    height: 100%;
+    position: relative;
+    left: 100%;
+    transform: translate(-100%, 0);
+}
+
+.contant-sec {
+    position: absolute;
+    z-index: 1100;
+    margin: 0 10px;
+    margin-bottom: 50px;
+    margin-top: 35%;
+    background: #ffffffe3;
+    padding: 25px;
+    border-radius: 12.5px;
+    left: 0px;
+}
+
+.contant-sec h1 {
+    color: #702B90;
+    font-family: Exo;
+}
+
+.contant-sec h1 b {
+    color: #243C74;
+    font-family: Lato;
+    font-weight: 900;
+}
+
+.contant-sec p {
+    margin: 25px 0;
+    color: #303030;
+    font-family: Lato;
+    width: 80%;
+}
+
+.btn.focus,
+.btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 5px rgba(255, 255, 255, 0);
+}
+
+.btn {
+    background-image: linear-gradient(90deg, #243C74, #702B90);
+    transition: linear .23s;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-family: Exo;
+    font-weight: 600;
+    padding: 7px 30px;
+    border-radius: 13px;
+    width: 145px;
+}
+
+.btn:hover {
+    color: white;
+    padding-right: 35px;
+    transition: linear .23s;
+    width: 180px
+}
+
+.btn:focus {
+    color: white;
+    padding-right: 35px;
+    transition: linear .23s;
+    width: 180px
+}
+
+.btn i {
+    padding-left: 5px;
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+    left: 3px;
+    text-align: right;
+}
+
+.btn i:hover {
+    transition: linear .23s;
+    left: 8px;
+
+}
+
+.modal {}
+
+.modal-title {
+    font-family: Exo;
+    font-size: 22px;
+    color: #702B90;
+}
